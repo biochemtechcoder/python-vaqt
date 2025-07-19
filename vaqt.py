@@ -1,5 +1,7 @@
 def vaqt():       #O'zgaruvchi yaratish
  """Bu o'zgaruvchi vaqtni hisoblash va Taymer funksiyasiga ega."""
+def vaqt():       #Funksiya yaratish
+ """Bu funksiya vaqtni hisoblash va Taymer funksiyasiga ega."""
  while True:
     import time
     from datetime import datetime
@@ -27,4 +29,4 @@ def vaqt():       #O'zgaruvchi yaratish
     
     else:
         print('Xato tanlov')       #Tanlov xato kiritilganda
-vaqt()     #O'zgaruvchini terminalga chiqarish
+vaqt()     #O'zgaruvchini terminalga chiqarishvaqt()     #Funksiyani terminalga chiqarish
